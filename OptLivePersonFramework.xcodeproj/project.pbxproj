@@ -7,9 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2542256F6C8769E945259936 /* Pods_OptLivePersonFrameworkTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF219B1E5D57310B227F2768 /* Pods_OptLivePersonFrameworkTests.framework */; };
 		42055D57220276ED00BD517D /* OptLivePersonFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42055D4D220276ED00BD517D /* OptLivePersonFramework.framework */; };
 		42055D5C220276ED00BD517D /* OptLivePersonFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42055D5B220276ED00BD517D /* OptLivePersonFrameworkTests.swift */; };
 		42055D5E220276ED00BD517D /* OptLivePersonFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 42055D50220276ED00BD517D /* OptLivePersonFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		42055D692202785600BD517D /* SSLivePersonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42055D682202785600BD517D /* SSLivePersonViewController.swift */; };
+		6935ED30467C0BC5B9F1C9EB /* Pods_OptLivePersonFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C84331E4AE4A23AB21D244E2 /* Pods_OptLivePersonFramework.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +32,13 @@
 		42055D56220276ED00BD517D /* OptLivePersonFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OptLivePersonFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		42055D5B220276ED00BD517D /* OptLivePersonFrameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptLivePersonFrameworkTests.swift; sourceTree = "<group>"; };
 		42055D5D220276ED00BD517D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42055D682202785600BD517D /* SSLivePersonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSLivePersonViewController.swift; sourceTree = "<group>"; };
+		932A7C6E30DEC446E4C3B6C1 /* Pods-OptLivePersonFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OptLivePersonFramework.release.xcconfig"; path = "Pods/Target Support Files/Pods-OptLivePersonFramework/Pods-OptLivePersonFramework.release.xcconfig"; sourceTree = "<group>"; };
+		C84331E4AE4A23AB21D244E2 /* Pods_OptLivePersonFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OptLivePersonFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA2C83AA47B8A32A99FC1908 /* Pods-OptLivePersonFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OptLivePersonFramework.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OptLivePersonFramework/Pods-OptLivePersonFramework.debug.xcconfig"; sourceTree = "<group>"; };
+		DF219B1E5D57310B227F2768 /* Pods_OptLivePersonFrameworkTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OptLivePersonFrameworkTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB0822BAD82CD17F70DA2D30 /* Pods-OptLivePersonFrameworkTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OptLivePersonFrameworkTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OptLivePersonFrameworkTests/Pods-OptLivePersonFrameworkTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F280347159F484CE7DC317FA /* Pods-OptLivePersonFrameworkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OptLivePersonFrameworkTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OptLivePersonFrameworkTests/Pods-OptLivePersonFrameworkTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6935ED30467C0BC5B9F1C9EB /* Pods_OptLivePersonFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,18 +55,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				42055D57220276ED00BD517D /* OptLivePersonFramework.framework in Frameworks */,
+				2542256F6C8769E945259936 /* Pods_OptLivePersonFrameworkTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0722652FC000E58215A6B03A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C84331E4AE4A23AB21D244E2 /* Pods_OptLivePersonFramework.framework */,
+				DF219B1E5D57310B227F2768 /* Pods_OptLivePersonFrameworkTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		42055D43220276ED00BD517D = {
 			isa = PBXGroup;
 			children = (
 				42055D4F220276ED00BD517D /* OptLivePersonFramework */,
 				42055D5A220276ED00BD517D /* OptLivePersonFrameworkTests */,
 				42055D4E220276ED00BD517D /* Products */,
+				85E197F0F14A7BD2A1891175 /* Pods */,
+				0722652FC000E58215A6B03A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,6 +94,7 @@
 		42055D4F220276ED00BD517D /* OptLivePersonFramework */ = {
 			isa = PBXGroup;
 			children = (
+				42055D672202784300BD517D /* ViewController */,
 				42055D50220276ED00BD517D /* OptLivePersonFramework.h */,
 				42055D51220276ED00BD517D /* Info.plist */,
 			);
@@ -84,6 +108,25 @@
 				42055D5D220276ED00BD517D /* Info.plist */,
 			);
 			path = OptLivePersonFrameworkTests;
+			sourceTree = "<group>";
+		};
+		42055D672202784300BD517D /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				42055D682202785600BD517D /* SSLivePersonViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		85E197F0F14A7BD2A1891175 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DA2C83AA47B8A32A99FC1908 /* Pods-OptLivePersonFramework.debug.xcconfig */,
+				932A7C6E30DEC446E4C3B6C1 /* Pods-OptLivePersonFramework.release.xcconfig */,
+				EB0822BAD82CD17F70DA2D30 /* Pods-OptLivePersonFrameworkTests.debug.xcconfig */,
+				F280347159F484CE7DC317FA /* Pods-OptLivePersonFrameworkTests.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -104,10 +147,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 42055D61220276ED00BD517D /* Build configuration list for PBXNativeTarget "OptLivePersonFramework" */;
 			buildPhases = (
+				FCDF358268455DCB50C7DF17 /* [CP] Check Pods Manifest.lock */,
 				42055D48220276ED00BD517D /* Headers */,
 				42055D49220276ED00BD517D /* Sources */,
 				42055D4A220276ED00BD517D /* Frameworks */,
 				42055D4B220276ED00BD517D /* Resources */,
+				72F8A86300924B3C481B773C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -122,9 +167,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 42055D64220276ED00BD517D /* Build configuration list for PBXNativeTarget "OptLivePersonFrameworkTests" */;
 			buildPhases = (
+				13C7113C6F6711C6D72BD476 /* [CP] Check Pods Manifest.lock */,
 				42055D52220276ED00BD517D /* Sources */,
 				42055D53220276ED00BD517D /* Frameworks */,
 				42055D54220276ED00BD517D /* Resources */,
+				8A47A82B02EE7818D42BBB20 /* [CP] Embed Pods Frameworks */,
+				12EBBF97EA6F21DE3E3CC247 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -148,6 +196,7 @@
 				TargetAttributes = {
 					42055D4C220276ED00BD517D = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 					42055D55220276ED00BD517D = {
 						CreatedOnToolsVersion = 10.1;
@@ -189,11 +238,131 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		12EBBF97EA6F21DE3E3CC247 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-OptLivePersonFrameworkTests/Pods-OptLivePersonFrameworkTests-resources.sh",
+				"${PODS_ROOT}/LPMessagingSDK/LPMessagingSDK/LPMessagingSDKModels.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/LPMessagingSDKModels.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OptLivePersonFrameworkTests/Pods-OptLivePersonFrameworkTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		13C7113C6F6711C6D72BD476 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OptLivePersonFrameworkTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		72F8A86300924B3C481B773C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-OptLivePersonFramework/Pods-OptLivePersonFramework-resources.sh",
+				"${PODS_ROOT}/LPMessagingSDK/LPMessagingSDK/LPMessagingSDKModels.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/LPMessagingSDKModels.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OptLivePersonFramework/Pods-OptLivePersonFramework-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A47A82B02EE7818D42BBB20 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-OptLivePersonFrameworkTests/Pods-OptLivePersonFrameworkTests-frameworks.sh",
+				"${PODS_ROOT}/LPMessagingSDK/LPMessagingSDK/LPAMS.framework",
+				"${PODS_ROOT}/LPMessagingSDK/LPMessagingSDK/LPInfra.framework",
+				"${PODS_ROOT}/LPMessagingSDK/LPMessagingSDK/LPMessagingSDK.framework",
+				"${PODS_ROOT}/LPMessagingSDK/LPMessagingSDK/LPMonitoring.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LPAMS.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LPInfra.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LPMessagingSDK.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LPMonitoring.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OptLivePersonFrameworkTests/Pods-OptLivePersonFrameworkTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FCDF358268455DCB50C7DF17 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OptLivePersonFramework-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		42055D49220276ED00BD517D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42055D692202785600BD517D /* SSLivePersonViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,7 +509,9 @@
 		};
 		42055D62220276ED00BD517D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA2C83AA47B8A32A99FC1908 /* Pods-OptLivePersonFramework.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -357,6 +528,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ss.OptLivePersonFramework;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -364,7 +536,9 @@
 		};
 		42055D63220276ED00BD517D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 932A7C6E30DEC446E4C3B6C1 /* Pods-OptLivePersonFramework.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -388,7 +562,9 @@
 		};
 		42055D65220276ED00BD517D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB0822BAD82CD17F70DA2D30 /* Pods-OptLivePersonFrameworkTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = OptLivePersonFrameworkTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -405,7 +581,9 @@
 		};
 		42055D66220276ED00BD517D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F280347159F484CE7DC317FA /* Pods-OptLivePersonFrameworkTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = OptLivePersonFrameworkTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (

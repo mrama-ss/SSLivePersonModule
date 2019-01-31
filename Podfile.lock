@@ -1,0 +1,16 @@
+PODS:
+  - LPMessagingSDK (3.5.0.3.2193)
+
+DEPENDENCIES:
+  - LPMessagingSDK (from `./lpspec/LPMessagingSDK.podspec`)
+
+EXTERNAL SOURCES:
+  LPMessagingSDK:
+    :podspec: "./lpspec/LPMessagingSDK.podspec"
+
+SPEC CHECKSUMS:
+  LPMessagingSDK: 9c9250d9dee98cdbb9bbebcc723380db065dbb63
+
+PODFILE CHECKSUM: 2baf492e9df5c9957d75ff1b410dc98e18426ee6
+
+COCOAPODS: 1.5.3

@@ -1,0 +1,6 @@
+framework module Pods_OptLivePersonFrameworkTests {
+  umbrella header "Pods-OptLivePersonFrameworkTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
