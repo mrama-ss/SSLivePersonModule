@@ -11,11 +11,11 @@ import LPMessagingSDK
 import LPInfra
 
 
-class SSLivePersonViewController: UIViewController {
+public class SSLivePersonViewController: UIViewController {
 
 
 
-        override func viewDidLoad() {
+    override public func viewDidLoad() {
             super.viewDidLoad()
 
             do {
@@ -26,7 +26,7 @@ class SSLivePersonViewController: UIViewController {
         }
 
 
-        override func viewDidAppear(_ animated: Bool) {
+    override public func viewDidAppear(_ animated: Bool) {
             super.viewDidAppear(animated)
 
             let conversationQuery = LPMessagingSDK.instance.getConversationBrandQuery("70958976")
