@@ -1,16 +1,16 @@
 PODS:
-  - LPMessagingSDK (3.5.0.3.2193)
+  - LPMessagingSDK (3.5.1.0.2288)
 
 DEPENDENCIES:
-  - LPMessagingSDK (from `./lpspec/LPMessagingSDK.podspec`)
+  - LPMessagingSDK
 
-EXTERNAL SOURCES:
-  LPMessagingSDK:
-    :podspec: "./lpspec/LPMessagingSDK.podspec"
+SPEC REPOS:
+  https://github.com/LivePersonInc/iOSPodSpecs.git:
+    - LPMessagingSDK
 
 SPEC CHECKSUMS:
-  LPMessagingSDK: 9c9250d9dee98cdbb9bbebcc723380db065dbb63
+  LPMessagingSDK: af48a071d4d9739c5428b1c2b5d55ea9c1abedd9
 
-PODFILE CHECKSUM: 2baf492e9df5c9957d75ff1b410dc98e18426ee6
+PODFILE CHECKSUM: d50bf0bc7ce189a59443b510c11d0a03d35508b4
 
 COCOAPODS: 1.5.3
